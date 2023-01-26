@@ -58,10 +58,10 @@ I’ve compiled a list of essential Vim commands that I use every day. I have th
 
 ### Exiting
 
-- `:w` - Write (save) the file, but don't quit
-- `:wq` - Write (save) and quit
-- `:q` - Quit (fails if anything has changed)
-- `:q!` - Quit and throw away changes
+- `Esc` + `:w` - Write (save) the file, but don't quit
+- `Esc` + `:wq` - Write (save) and quit
+- `Esc` + `:q` - Quit (fails if anything has changed)
+- `Esc` + `:q!` - Quit and throw away changes
 
 ### Search/Replace
 
