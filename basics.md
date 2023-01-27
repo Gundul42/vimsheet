@@ -6,22 +6,9 @@
 
 - `i` / `a` - Start insert mode at/after cursor
 - `I` / `A` - Start insert mode at the beginning/end of the line
-- `o` / `O` - Add blank line below/above current line
 - `Esc` or `Ctrl+[` - Exit insert mode
 - `d` - Delete
 - `dd` - Delete line
-- `c` - Delete, then start insert mode
-- `cc` - Delete line, then start insert mode
-
-### Operators
-
-- Operators also work in Visual Mode
-- `d` - Deletes from the cursor to the movement location
-- `c` - Deletes from the cursor to the movement location, then starts insert mode
-- `y` - Copy from the cursor to the movement location
-- `>` - Indent one level
-- `<` - Unindent one level
-- You can also combine operators with motions. Ex: `d$` deletes from the cursor to the end of the line.
 
 ### Marking text (visual mode)
 
